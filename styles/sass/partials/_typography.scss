@@ -1,0 +1,32 @@
+@use "./variables";
+
+// call it by saying something like "variable.$primary
+
+
+// Import out Fonts for use
+
+// Jakarta Sans Regular
+
+@font-face {
+    font-family: "Jakarta Sans";
+    src: url('../fonts/PlusJakarta_Sans-2.5/webfonts/PlusJakartaSans-Regular.woff'),
+        url('../fonts/PlusJakarta_Sans-2.5/static/PlusJakartaSans-Regular.ttf'),
+        url('../fonts/PlusJakarta_Sans-2.5/webfonts/PlusJakartaSans-Regular.woff2');
+
+    font-weight: normal;
+}
+
+// Import Jakarta Sans BOLD
+
+@font-face {
+    font-family: "Jakarta Sans";
+    src: url('../fonts/PlusJakarta_Sans-2.5/webfonts/PlusJakartaSans-Bold.woff'),
+        url(../fonts/PlusJakarta_Sans-2.5/webfonts/PlusJakartaSans-Bold.woff2),
+        url(../fonts/PlusJakarta_Sans-2.5/static/PlusJakartaSans-Bold.ttf);
+
+    font-weight: bold;
+}
+
+// have to figure out file location for yourself in this case.
+
+// Importing our Heading Font - Young Serif
