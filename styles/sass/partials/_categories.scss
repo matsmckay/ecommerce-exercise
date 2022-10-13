@@ -1,0 +1,52 @@
+@use "./variables";
+
+.categoryGallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .items {
+        width: 40%;
+        // width: calc(50% - 50px);
+        margin: 50px 25px 25px;
+        border-radius: 10%;
+        padding: 45px;
+        text-align: center;
+
+        img {
+            border-radius: 10%;
+            margin-bottom: 20px;
+        }
+
+        display: flex;
+        flex-direction: column;
+
+        a {
+
+            &:hover,
+            &:focus {
+                transform: scale(0.95);
+            }
+        }
+
+        // a:hover {
+        //     transform: scale(0.95);
+        // }
+    }
+
+    .itemOne {
+        background: variables.$quinary;
+    }
+
+    .itemTwo {
+        background: variables.$secondary;
+    }
+
+    .itemThree {
+        background: variables.$tertiary;
+    }
+
+    .itemFour {
+        background: variables.$quaternary;
+    }
+}

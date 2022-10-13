@@ -521,3 +521,48 @@ header .headerContentContainer {
   width: 55%;
   padding: 0 90px;
 }
+
+.categoryGallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.categoryGallery .items {
+  width: 40%;
+  margin: 50px 25px 25px;
+  border-radius: 10%;
+  padding: 45px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.categoryGallery .items img {
+  border-radius: 10%;
+  margin-bottom: 20px;
+}
+.categoryGallery .items a:hover, .categoryGallery .items a:focus {
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+.categoryGallery .itemOne {
+  background: #ffd698;
+}
+.categoryGallery .itemTwo {
+  background: #f4fcff;
+}
+.categoryGallery .itemThree {
+  background: #f8fbf3;
+}
+.categoryGallery .itemFour {
+  background: #fff5f5;
+}
